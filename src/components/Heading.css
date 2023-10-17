@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 0.25rem;
+    margin-bottom: 5rem;
+}
+
+.header__right {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.header__title {
+    text-decoration: none;
+    color: var(--violet-gray);
+}

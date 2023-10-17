@@ -1,0 +1,59 @@
+:root {
+    --dark: #212121;
+    --blue-dark: #1a2747;
+    --violet-gray: #8592f1;
+    --violet-light: #ced1ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: var(--dark);
+    color: var(--violet-gray);
+    font-size: 1rem;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    color: white;
+    font-weight: 600;
+}
+
+.btn__success {
+    background-color: turquoise;
+}
+
+.btn__success:hover {
+    background-color: #37c2b4;
+}
+
+.btn__warning {
+    background-color: gold;
+}
+
+.btn__warning:hover {
+    background-color: goldenrod;
+}
+
+.btn__danger {
+    background-color: tomato;
+}
+
+.btn__danger:hover {
+    background-color: #d04d36;
+}
+
+.btn__primary {
+    background-color: var(--violet-light);
+}
+
+.btn__primary:hover {
+    background-color: var(--violet-gray);
+}
